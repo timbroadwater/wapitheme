@@ -1,5 +1,5 @@
 # WAPI (WordPress Application Program Interface) Theme
-A responsive WordPress theme that utilizes:
+The WAPI Theme is a responsive WordPress theme that utilizes:
 
 * AngularJS
 * FontAwesome
