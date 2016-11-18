@@ -1,0 +1,35 @@
+html, body, form, nav, ul {
+    display: block;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.wrap {
+	width: 90%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	display: block;
+	height: auto;
+	overflow: hidden;
+}
+video {
+	display: block;
+} 
+
+/* For IE9 */
+a img {
+    border: none;    
+}
+
+/* For Chrome & Firefox */
+*:focus {
+    outline: 0;
+}
+textarea:focus, input:focus{
+    outline: 0;
+}
+a:hover, a:active, a:focus {
+	outline: 0;
+}

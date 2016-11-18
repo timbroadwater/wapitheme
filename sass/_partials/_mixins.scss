@@ -1,0 +1,17 @@
+// Media Queries 
+@mixin mq($dim) {
+	@if $dim == desktop {
+		@media (min-width: 1024px) { @content; }
+	}
+	@else if $dim == tablet {
+		@media (min-width: 768px)  { @content; }
+	}
+}
+
+// Browser Prefixing Shorthand
+@mixin prefix($property, $value) {
+        -webkit-#{$property}: $value;
+        -moz-#{$property}: $value;
+        -ms-#{$property}: $value;
+        -o-#{$property}: $value;
+}
